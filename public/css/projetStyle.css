@@ -1,0 +1,303 @@
+/*Alfa Slab*/
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+/*Anton*/
+@import url('https://fonts.googleapis.com/css?family=Candal');
+/* GameOver*/
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+/*new adventure*/
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+/* Skranji*/
+@import url('https://fonts.googleapis.com/css?family=Skranji');
+body{
+	font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	font-size: 1rem;
+}
+
+main{
+	min-height: 580px;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+#descriptionSequence{
+	font-size: 25px;
+	font-family: 'Skranji', cursive;
+	color: white;	
+}
+
+#goalSequence{
+	font-size: 45px;
+	font-family: 'Skranji', cursive;
+	color: white;	
+}
+
+#goalLogo{
+	height: 64px;
+	width: 64px;
+}
+
+#titleGameH1{
+	font-size: 50px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+#titleGame{
+	font-size: 50px;
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+}
+
+#descriptionGame{
+	font-size: 30px;
+	font-family: 'Francois One', sans-serif;
+
+}
+
+#titleGame:hover{
+	font-size: 55px;
+	color: red;
+}
+
+#ChoseGameH1{
+	font-size : 50px;
+	font-family: 'Press Start 2P', cursive;
+	color: black;
+}
+
+.progBar{
+	height: 100%;
+	width: 0%;	
+	background-color: black;	
+}
+#progBar{
+	font-size: 30px;
+	font-family: 'Francois One', sans-serif;
+	color: white;
+}
+
+#insideBar{
+	height: 40px;
+	width: 0%;
+	font-size: 30px;
+	background-color: rgb(175,1,2);
+}
+
+#genderAdventureMale,#genderAdventureFemale{
+	width: 128px;
+	height: 128px;
+}
+
+#offerPseudoAdventure{
+	color : blue;
+	font-family: 'Francois One', sans-serif;
+	font-size: 20px;
+	display: block;
+}
+
+#genderAdventureMale{
+	visibility : visible;
+}
+
+#genderAdventureFemale{
+	visibility : hidden;
+}
+
+#adventureFormLabel{
+	color : black;
+	font-family: 'Francois One', sans-serif;
+	font-size: 30px;
+}
+
+#newAdventureH1{
+	color : black;
+	font-family: 'Francois One', sans-serif;
+	font-size: 55px;
+}
+
+#adventureStart,#adventureContinue,#adventureReset,#adventureExit{
+	color: black;
+	font-family: 'Francois One', sans-serif;
+	font-size: 75px;
+}
+
+#adventureStart:hover,#adventureExit:hover,#adventureContinue:hover,#adventureReset:hover{
+	color: red;
+}
+
+#logoSI{
+	width: 180px;
+	height: 84px;
+}
+
+
+#algoGame{
+	height: 70vh;
+}
+
+#adventureH1{
+	font-family: 'Press Start 2P', cursive;
+	color: black;
+}
+
+#surrend{
+	font-size: 28px;
+}
+
+#crossExit{
+	height: 64px;
+	width: 64px;
+}
+
+#chosepuzzle{
+	font-size : 50px;
+	font-family: 'Press Start 2P', cursive;
+	color: white;
+
+}
+
+#navGame{
+	width: 250px;
+	height :100vh;
+	background-color: rgb(64,64,64);
+}
+
+footer .active,header nav li, h3{
+	font-family: 'Candal', sans-serif;
+}
+#idtableSubject .row .p-0 a:hover{
+	text-decoration: none;
+}
+#idtableSubject .row .p-0 a{
+	text-decoration: none;
+}
+
+#imgGame,#logoImg {
+	height:43px ; 
+	width:43px ;
+}
+
+
+
+#pGame,#pGameS {
+	font-size: 20px;
+}
+
+button {
+	width: 100%;
+	background-color: rgba(0,0,0,0);
+	color: white;
+}
+
+h3{
+	font-size: 1.75rem;
+}
+
+footer .active{
+	font-size: 1rem;
+}
+
+#namesTab{
+	color: white;
+}
+
+#plogo,#alogo,#gameName{
+	font-size: 1.75rem;
+	
+	text-decoration: none;
+	font-family: 'Press Start 2P', cursive;
+}
+
+#gameName{
+	color : black;
+}
+
+#alogo{
+	color : white ;
+}
+
+#plogo{
+	color: rgb(16, 222, 0); 
+}
+
+#alogo:hover{
+	color: red;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+#block1{
+	border:1px solid black;
+	padding: 2%;
+}
+
+#block2{
+	border:1px solid black;	
+}
+
+#validateAdventure:hover{
+	background-color: green;
+}
+
+#buttonJouer,#validate,#validateAdventure{
+	border-radius: 0;
+	color : white;
+	font-size: 4em;  /*ne pas oublier de media queries taille du font*/
+	font-family: 'Alfa Slab One', cursive, sans-serif;
+}
+
+#buttonJouerOver{
+	border-radius: 0;
+	color : white;
+	font-size: 4em;  /*ne pas oublier de media queries taille du font*/
+	font-family: 'Press Start 2P', cursive;
+}
+
+#menuGame1,#menuGame2,#menuGame3{
+	border-radius: 0;
+	color : white;
+	font-size: 4em;  /*ne pas oublier de media queries taille du font*/
+	font-family: 'Press Start 2P', cursive;
+}
+
+#buttonWin{
+	border-radius: 0;
+	color : black;
+	font-size: 4em;  /*ne pas oublier de media queries taille du font*/
+	font-family: 'Alfa Slab One', cursive, sans-serif;
+}
+
+
+
+#buttonWin:hover{
+	text-decoration: none;
+	color : rgb(38, 196, 236);
+}
+
+#buttonJouerOver:hover{
+	text-decoration: none;
+	color : red;
+}
+
+#menuGame1:hover,#menuGame2:hover,#menuGame3:hover{
+	text-decoration: none;
+	color : red;
+}
+
+#actuJeux{
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+
+#tableHead{
+	margin-bottom: 0;
+	padding: 1%;
+}
+
+footer{
+	padding: 1.5%;
+	background-color: #111111;
+}
